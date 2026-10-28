@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بیوگرافی من</title>
+    <meta name="description" content="بیوگرافی و نمونه‌کارهای قادری، توسعه‌دهنده وب">
+    <title>قادری | توسعه‌دهنده وب</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>قادری، توسعه‌دهنده وب</h1>
-            <p class="tagline">اشتیاق من به خلق، کدنویسی و نوآوری.</p>
+        <!-- هدر و معرفی -->
+        <header class="hero">
+            <div class="profile-badge">👨‍💻</div>
+            <h1>قادری، <span class="gradient-text">توسعه‌دهنده وب</span></h1>
+            <p class="tagline">اشتیاق من به خلق، کدنویسی و نوآوری در دنیای دیجیتال.</p>
         </header>
 
-        <section class="bio-section">
-            <h2>درباره من</h2>
+        <!-- درباره من -->
+        <section class="card bio-section">
+            <h2>👤 درباره من</h2>
             <p>
                 من یک توسعه‌دهنده وب با تجربه‌ای چند ساله در زمینه ساخت و توسعه وب‌سایت‌ها و اپلیکیشن‌های تحت وب هستم.
-                تخصص من شامل <span class="highlight">HTML5</span>، <span class="highlight">CSS3</span>، <span class="highlight">JavaScript</span> و فریم‌ورک‌هایی مانند <span class="highlight">React</span> (یا هر فریم‌ورک دیگری که تخصص دارید) است.
+                تخصص من شامل <span class="highlight">HTML5</span>، <span class="highlight">CSS3</span>، <span class="highlight">JavaScript</span> و فریم‌ورک‌هایی مانند <span class="highlight">React</span> است.
                 همواره در جستجوی چالش‌های جدید و فرصت‌هایی برای یادگیری و رشد هستم.
             </p>
             <p>
@@ -27,26 +31,74 @@
             </p>
         </section>
 
-        <section class="links-section">
-            <h2>لینک‌ها</h2>
-            <div class="links-grid">
-                <a href="https://github.com/ghaderi7" target="_blank" class="link-item github">
-                    گیت‌هاب من <span>(پروژه‌های من)</span>
-                </a>
-                <a href="https://t.me/Ghaderi" target="_blank" class="link-item linkedin">
-                    تلگرام من</span>
-                </a>
-                <a href="mailto:Ghaderi12@Gmail.com" class="link-item email">
-                    ایمیل من <span>(ارتباط مستقیم)</span>
-                </a>
-                <a href="#" target="_blank" class="link-item blog">
-                    وبلاگ شخصی <span>(نوشته‌های من)</span>
-                </a>
-                </div>
+        <!-- بخش جدید: اپ‌هایی که طراحی کرده‌ام -->
+        <section class="apps-section">
+            <h2>🚀 اپ‌هایی که طراحی کرده‌ام</h2>
+            <div class="apps-grid">
+                <!-- کارت اپلیکیشن ۱ -->
+                <article class="app-card">
+                    <div class="app-icon">📱</div>
+                    <h3>نام اپلیکیشن اول</h3>
+                    <p>توضیح کوتاهی در مورد این اپلیکیشن، مشکل‌هایی که حل می‌کند و تکنولوژی‌های استفاده شده (مثل React, Node.js).</p>
+                    <a href="#" target="_blank" class="app-link">مشاهده پروژه &larr;</a>
+                </article>
+
+                <!-- کارت اپلیکیشن ۲ -->
+                <article class="app-card">
+                    <div class="app-icon">💻</div>
+                    <h3>نام اپلیکیشن دوم</h3>
+                    <p>توضیح کوتاهی در مورد این اپلیکیشن و ویژگی‌های کلیدی آن. می‌توانید لینک گیت‌هاب یا دموی زنده را اینجا قرار دهید.</p>
+                    <a href="#" target="_blank" class="app-link">مشاهده پروژه &larr;</a>
+                </article>
+
+                <!-- کارت اپلیکیشن ۳ (اختیاری) -->
+                <article class="app-card">
+                    <div class="app-icon">🛠️</div>
+                    <h3>نام ابزار یا پروژه جانبی</h3>
+                    <p>یک ابزار کوچک یا کتابخانه‌ای که توسعه داده‌اید و برای دیگران قابل استفاده است.</p>
+                    <a href="#" target="_blank" class="app-link">مشاهده پروژه &larr;</a>
+                </article>
+            </div>
         </section>
 
+        <!-- لینک‌های ارتباطی -->
+        <section class="card links-section">
+            <h2>🔗 راه‌های ارتباطی</h2>
+            <div class="links-grid">
+                <a href="https://github.com/ghaderi7" target="_blank" class="link-item github">
+                    <span class="link-icon">🐙</span>
+                    <div class="link-text">
+                        <strong>گیت‌هاب من</strong>
+                        <span>مشاهده پروژه‌های متن‌باز</span>
+                    </div>
+                </a>
+                <a href="https://t.me/Ghaderi" target="_blank" class="link-item telegram">
+                    <span class="link-icon">✈️</span>
+                    <div class="link-text">
+                        <strong>تلگرام من</strong>
+                        <span>ارتباط سریع و مستقیم</span>
+                    </div>
+                </a>
+                <a href="mailto:Ghaderi12@Gmail.com" class="link-item email">
+                    <span class="link-icon">📧</span>
+                    <div class="link-text">
+                        <strong>ایمیل من</strong>
+                        <span>Ghaderi12@Gmail.com</span>
+                    </div>
+                </a>
+                <a href="#" target="_blank" class="link-item blog">
+                    <span class="link-icon">📝</span>
+                    <div class="link-text">
+                        <strong>وبلاگ شخصی</strong>
+                        <span>نوشته‌ها و مقالات من</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- فوتر -->
         <footer>
-            <p>&copy; 2024 قادری. تمام حقوق محفوظ است.</p>
+            <p>&copy; ۲۰۲۶ قادری. تمام حقوق محفوظ است. | ساخته شده با ❤️ و کد</p>
         </footer>
     </div>
 </body>
